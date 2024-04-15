@@ -56,6 +56,7 @@ public class Player {
 		System.out.println("\n" + name + " has the following cards:");
 		for (Card card : hand) {
 			System.out.println(card.describe());
+			System.out.println("-----------------------------------");
 		}
 	}
 	public void draw(Deck deck) {
@@ -71,4 +72,3 @@ public class Player {
 	
 	
 	
-
