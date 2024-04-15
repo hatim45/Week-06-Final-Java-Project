@@ -4,9 +4,9 @@ public class Week06JavaProject {
 
 
 	public static void main(String[] args) {
-		//Instatiating New Deck
+		//Instantiating New Deck
 		Deck playDeck = new Deck();
-		//Instatiating Two new players
+		//Instantiating Two new players
 		Player p1 = new Player ("Johnathan");
 		Player p2 = new Player ("Carlos");
 		
@@ -48,7 +48,7 @@ public class Week06JavaProject {
 	}
 	
 	// Displaying the Game Winner
-	
+	System.out.println("-----------------------------------");
 	System.out.println("Final Score --" + p1.getName() + ": " + p1.getScore() + " " + p2.getName() + ": " + p2.getScore() + "\n");
 	if (p1.getScore() > p2.getScore()) {
 		System.out.println(p1.getName() + " is the Winner! ");
